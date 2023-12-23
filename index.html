@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Chat with Bhagavad Gita Bot</h2>
+
+<div id="chatbox">
+  <!-- Chat messages will go here -->
+</div>
+
+<input type="text" id="input" placeholder="Type your message...">
+<button onclick="sendMessage()">Send</button>
+
+<script>
+function sendMessage() {
+  var input = document.getElementById("input");
+  var message = input.value;
+  input.value = "";
+
+  // Add the user's message to the chatbox
+  var chatbox = document.getElementById("chatbox");
+  chatbox.innerHTML += "<p>You: " + message + "</p>";
+
+  // TODO: Send the message to your chatbot model and get a response
+
+  // For now, we'll just echo the message back
+  var response = "Bot: " + message;
+  chatbox.innerHTML += "<p>" + response + "</p>";
+}
+</script>
+
+</body>
+</html>
