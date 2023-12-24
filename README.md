@@ -21,12 +21,7 @@ The Blessed Lord said: O mighty-armed son of Kunti, it is undoubtedly very diffi
 # Explanation: 
 The difficulty of controlling the restless mind, as expressed by Arjuna, is accepted by the Supreme Personality of Godhead. But at the same time He suggests that by practice and detachment it is possible. What is that practice? In the present age no one can observe the strict rules and regulations of placing oneself in a sacred place, focusing the mind on the Supersoul, restraining the senses and mind, observing celibacy, remaining alone, etc. By the practice of Kṛṣṇa consciousness, however, one engages in nine types of devotional service to the Lord. The first and foremost of such devotional engagements is hearing about Kṛṣṇa. This is a very powerful transcendental method for purging the mind of all misgivings.
 
-Demo: A demo of the project can be very helpful to showcase its features and functionality. You can use screenshots or GIFs to illustrate how the chatbot works. For example:
-Demo
-Here is a GIF showing how the chatbot responds to different queries:
-
-Dataset and model: The README should also provide some information about the dataset and the model used for the chatbot. You can mention the source of the dataset, the number of verses, the language, the preprocessing steps, the model architecture, the training parameters, the evaluation metrics, etc. For example:
-Dataset and model
+# Dataset and model
 The dataset for the chatbot is based on the Bhagavad Gita As It Is by A.C. Bhaktivedanta Swami Prabhupada, which is a translation and commentary of the original Sanskrit text. The dataset contains 700 verses and their explanations in English, along with some keywords for each verse. The dataset was preprocessed by removing punctuation, stopwords, and numbers, and by lemmatizing the words.
 
 The model for the chatbot is a TF-IDF vectorizer combined with a cosine similarity measure. The TF-IDF vectorizer converts the text into numerical vectors based on the term frequency and inverse document frequency of each word. The cosine similarity measure computes the similarity between the query vector and the verse vectors, and returns the most similar verse and its explanation.
